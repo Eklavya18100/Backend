@@ -27,8 +27,8 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  console.log('Request received');
-  res.send('This is the name service')
+  
+  res.send('This is the name servicerfe')
 });
 // Define an endpoint to retrieve a name based on query ID
 app.get('/name', (req, res) => {
