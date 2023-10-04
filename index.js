@@ -1,12 +1,13 @@
 const express = require('express');
-const mysql = require('mysql');
+const mysql = require('mysql2');
 const cors = require('cors');
 
 // Create a MySQL connection
 const connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: '1234Ek@1234',
+  host: 'mysql-cfg-eklavyaagarwal1810-167c.aivencloud.com',
+  port: '13491',
+  user: 'avnadmin',
+  password: 'AVNS_o1eXasKbTW3qhWz1F59',
   database: 'users'
 });
 
